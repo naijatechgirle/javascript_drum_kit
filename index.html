@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My JS Drum Kit</title>
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row keys">
+            <div class="key" data-key="65">
+                <kbd>A</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div class="key" data-key="83">
+                <kbd>S</kbd>
+                <span class="sound">hihat</span>
+            </div>
+            <div class="key" data-key="68">
+                <kbd>D</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div class="key" data-key="70">
+                <kbd>F</kbd>
+                <span class="sound">openhat</span>
+            </div> 
+            <div class="key" data-key="71">
+                <kbd>G</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div class="key" data-key="72">
+                <kbd>H</kbd>
+                <span class="sound">ride</span>
+            </div>
+            <div class="key" data-key="74">
+                <kbd>J</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div class="key" data-key="75">
+                <kbd>K</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div class="key" data-key="76">
+                <kbd>L</kbd>
+                <span class="sound">tink</span>
+            </div>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./aud/clap.wav"></audio>
+    <audio data-key="83" src="./aud/hihat.wav"></audio>
+    <audio data-key="68" src="./aud/kick.wav"></audio>
+    <audio data-key="70" src="./aud/openhat.wav"></audio>
+    <audio data-key="71" src="./aud/boom.wav"></audio>
+    <audio data-key="72" src="./aud/ride.wav"></audio>
+    <audio data-key="74" src="./aud/snare.wav"></audio>
+    <audio data-key="75" src="./aud/tom.wav"></audio>
+    <audio data-key="76" src="./aud/tink.wav"></audio>
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
